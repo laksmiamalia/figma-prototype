@@ -9,21 +9,8 @@
             margin: 0;
             height: 100%;
             overflow: hidden;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: #f3f3f3; /* Background color for the loading screen */
-        }
-        #loader {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 24px;
-            color: #000; /* Text color for the loading message */
         }
         iframe {
-            display: none;
             width: 100%;
             height: 100%;
             border: none;
@@ -31,17 +18,6 @@
     </style>
 </head>
 <body>
-    <div id="loader">Loading...</div>
-    <iframe id="prototype" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FtZlDrZQT6p9IFCgU0DIsUN%2FTHE-WORLD%3Fnode-id%3D1-2%26t%3DNJjjNNoU7wyiyzNC-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26page-id%3D0%3A1%26starting-point-node-id%3D1%3A2" allowfullscreen></iframe>
-
-    <script>
-        window.addEventListener("load", function() {
-            var iframe = document.getElementById("prototype");
-            iframe.onload = function() {
-                document.getElementById("loader").style.display = "none";
-                iframe.style.display = "block";
-            }
-        });
-    </script>
+    <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FtZlDrZQT6p9IFCgU0DIsUN%2FTHE-WORLD%3Fnode-id%3D1-2%26t%3DNJjjNNoU7wyiyzNC-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26page-id%3D0%3A1%26starting-point-node-id%3D1%3A2" allowfullscreen></iframe>
 </body>
 </html>
