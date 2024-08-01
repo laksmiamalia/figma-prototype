@@ -17,16 +17,11 @@ You can view the live demo of the prototype [here.]([link](https://laksmiamalia.
 ### Getting Started
 If you'd like to explore or modify the project locally, follow these steps:
 1. Clone the Repository:
-
-bash
-Salin kode
 git clone https://github.com/your-username/figma-prototype.git
 
 2.Navigate to the Project Directory:
-
-bash
-Salin kode
 cd figma-prototype
+
 Open the HTML File:
 Open index.html in your preferred web browser to view the prototype locally.
 
